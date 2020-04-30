@@ -36,6 +36,9 @@ func main() {
 
 	fmt.Println(hello.Result())
 	fmt.Println(world.Result())
+	// Output:
+	// {hello <nil>}
+	// {world <nil>}
 }
 ```
 
