@@ -86,12 +86,15 @@ func main() {
 	<-time.After(5 * time.Second)
 	fmt.Println("appleStorage:", appleStorage)
 	fmt.Println("bananaStorage:", bananaStorage)
+	// Output:
+	// appleStorage: 50
+	// bananaStorage: 20
 }
 ```
 
 ### 等待結果
 
-模仿`async await`的概念，使用`Result()` 取得task 執行後的結果。
+使用`async await`的概念，使用`Result()` 取得task 執行後的結果。
 
 ```go
 package main
